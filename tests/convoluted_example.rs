@@ -27,7 +27,7 @@ mod example {
     struct Method {}
 
     impl Method {
-        fn start(self) -> Result<(), String> {
+        pub fn start(self) -> Result<(), String> {
             Ok(())
         }
     }
